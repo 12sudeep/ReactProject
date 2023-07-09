@@ -1,17 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import Button from './Button';
+import Image from './Image';
 
 function App() {
-  const clickFunction = () => {
-    alert("you clicked me!");
-  };
+  return ( 
+    <div>
+    <Button />
+    <Image />
+</div>
 
-  return (
-    <div className="App">
-      Sudeep Fullel
-      <div><button onClick={clickFunction}>Click me</button></div>
-    </div>
-  );
+  )
+
 }
+
 
 export default App;
