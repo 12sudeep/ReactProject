@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
   const clickFunction = () => {
-    alert("you clicked me!")
+    alert("you clicked me!");
   };
 
   return (
