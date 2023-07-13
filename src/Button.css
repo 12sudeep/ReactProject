@@ -1,0 +1,11 @@
+.clicked{
+    text-align: center;
+}
+
+button{
+    width: 120px;
+    border: none;
+    background: #ccc;
+    padding: 12px 16px;
+    /* border-radius: 4px; */
+  }

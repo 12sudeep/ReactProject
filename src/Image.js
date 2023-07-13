@@ -1,10 +1,10 @@
 const clickFunction = () => {
-    hover:red;
+    alert("you are")
 }
 
 const Image = () => {
     return(
-        <div><img src="/images/123.jpg"  onTouchMoveCapture={clickFunction}></img></div>
+        <div><img src="/images/123.jpg"  onClick={clickFunction} alt="you"></img></div>
     )
 }
 

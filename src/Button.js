@@ -1,11 +1,14 @@
+import "./Button.css"
+
+
 const clickFunction = () => {
-    alert("you clicked me!");
+    alert("you are a person now!");
   };
 
 
 const Button = () =>{
     return (
-        <div><button onClick={clickFunction}>Click me</button></div>
+        <div className="clicked"><button onClick={clickFunction}>Click me</button></div>
     )
 }
 
