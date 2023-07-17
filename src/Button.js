@@ -1,15 +1,10 @@
-import "./Button.css"
 
+const Button =(props) => {
 
-const clickFunction = () => {
-    alert("you are a person now!");
-  };
-
-
-const Button = () =>{
+const  {onClick,children} = props
     return (
-        <div className="clicked"><button onClick={clickFunction}>Click me</button></div>
+        <div className="click"><button onClick={onClick}>{children}</button></div>
     )
-}
+};
 
 export default Button;

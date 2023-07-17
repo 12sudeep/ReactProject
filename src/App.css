@@ -27,19 +27,17 @@
   border: 1px solid black;
 }
 
-.profile_card h1{
-  padding:15px;
-
+.profile_card h1 {
+  padding: 15px;
 }
 
-.topic{
+.topic {
   font-size: 60px;
   text-align: center;
   font-weight: 1400;
   font-style: Bold;
-  padding-top:30px;
+  padding-top: 30px;
   padding-bottom: 50px;
-
 }
 
 .to_Do {
@@ -61,7 +59,7 @@
   text-align: center;
 }
 
-button {
+.clicked {
   width: 120px;
   border: none;
   background: black;
@@ -78,4 +76,15 @@ button {
 .todo {
   padding: 100px;
   text-align: center;
+}
+
+.count {
+  text-align: center;
+  font-size: large;
+  font-style: bold;
+}
+
+.counte {
+  width: 300px;
+
 }
