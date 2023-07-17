@@ -1,7 +1,7 @@
 
 const Todo = (props) =>{
     return (
-        <div>
+        <div className="to_do">
             {props.todo.title} {props.todo.completed ? "✅": "❌"}
         </div>
     );

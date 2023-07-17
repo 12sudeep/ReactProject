@@ -1,19 +1,81 @@
-
-.me{
-  width: 400px;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.profile_card{
+.container {
+  margin: 0 80px;
+}
+
+.me {
+  width: 400px;
+  position: relative;
+  display: inline-block;
+  border-radius: 0%;
+}
+
+.hover-image:hover {
+  transition: transform 0.6s ease-in-out;
+  transform: scale(1.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  position: relative;
+  z-index: 1;
+}
+
+.profile_card {
   text-align: center;
   border: 1px solid black;
 }
 
-.profile_cards{
-  display: flex;
-  gap:20px;
+.profile_card h1{
+  padding:15px;
+
 }
 
-.todo{
+.topic{
+  font-size: 60px;
+  text-align: center;
+  font-weight: 1400;
+  font-style: Bold;
+  padding-top:30px;
+  padding-bottom: 50px;
+
+}
+
+.to_Do {
+  transition: color 0.3s ease ease-in-out;
+}
+.to_do:hover {
+  color: red;
+  font-weight: bold;
+}
+
+.profile_cards {
+  width: 100%;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.clicked {
+  text-align: center;
+}
+
+button {
+  width: 120px;
+  border: none;
+  background: black;
+  margin: 20px 20px;
+  padding: 10px 20px;
+  color: aliceblue;
+  /* border-radius: 4px; */
+}
+
+.clicked:hover {
+  background-color: grey;
+}
+
+.todo {
   padding: 100px;
   text-align: center;
 }
